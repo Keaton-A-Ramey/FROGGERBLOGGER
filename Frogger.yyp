@@ -1,9 +1,14 @@
 {
   "resources": [
+<<<<<<< Updated upstream
     {"id":{"name":"obj_bloo","path":"objects/obj_bloo/obj_bloo.yy",},"order":1,},
     {"id":{"name":"spr_blooPassport","path":"sprites/spr_blooPassport/spr_blooPassport.yy",},"order":1,},
+=======
+    {"id":{"name":"objBlogger","path":"objects/objBlogger/objBlogger.yy",},"order":1,},
+>>>>>>> Stashed changes
     {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},"order":0,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"sptBlogger","path":"sprites/sptBlogger/sptBlogger.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -47,7 +52,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "Frogger",
