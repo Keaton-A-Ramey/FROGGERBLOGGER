@@ -1,10 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"spt_roadwalkedge","path":"sprites/spt_roadwalkedge/spt_roadwalkedge.yy",},"order":15,},
     {"id":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},"order":1,},
     {"id":{"name":"spr_sidewalk","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"order":7,},
     {"id":{"name":"spt_car2","path":"sprites/spt_car2/spt_car2.yy",},"order":4,},
+    {"id":{"name":"spt_croudman2","path":"sprites/spt_croudman2/spt_croudman2.yy",},"order":12,},
     {"id":{"name":"obj_car1","path":"objects/obj_car1/obj_car1.yy",},"order":3,},
     {"id":{"name":"spt_car3","path":"sprites/spt_car3/spt_car3.yy",},"order":5,},
+    {"id":{"name":"obj_croudman2","path":"objects/obj_croudman2/obj_croudman2.yy",},"order":8,},
     {"id":{"name":"spr_midWalk","path":"sprites/spr_midWalk/spr_midWalk.yy",},"order":8,},
     {"id":{"name":"obj_blogger","path":"objects/obj_blogger/obj_blogger.yy",},"order":1,},
     {"id":{"name":"spt_car1","path":"sprites/spt_car1/spt_car1.yy",},"order":3,},
@@ -14,6 +17,7 @@
     {"id":{"name":"spt_croudman","path":"sprites/spt_croudman/spt_croudman.yy",},"order":2,},
     {"id":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},"order":2,},
     {"id":{"name":"spt_trainground","path":"sprites/spt_trainground/spt_trainground.yy",},"order":10,},
+    {"id":{"name":"spr_roadedge","path":"sprites/spr_roadedge/spr_roadedge.yy",},"order":13,},
     {"id":{"name":"obj_locomotive","path":"objects/obj_locomotive/obj_locomotive.yy",},"order":7,},
     {"id":{"name":"fnt_manaspace","path":"fonts/fnt_manaspace/fnt_manaspace.yy",},"order":0,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
@@ -24,6 +28,7 @@
     {"id":{"name":"spt_traincar","path":"sprites/spt_traincar/spt_traincar.yy",},"order":9,},
     {"id":{"name":"spt_controller","path":"sprites/spt_controller/spt_controller.yy",},"order":0,},
     {"id":{"name":"obj_car2","path":"objects/obj_car2/obj_car2.yy",},"order":4,},
+    {"id":{"name":"spt_roadwalk","path":"sprites/spt_roadwalk/spt_roadwalk.yy",},"order":14,},
     {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},"order":0,},
   ],
   "Options": [
