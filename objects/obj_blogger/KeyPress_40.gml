@@ -4,3 +4,5 @@ if (y < 750)
 {
 y = y + 50;
 }
+
+image_index=0

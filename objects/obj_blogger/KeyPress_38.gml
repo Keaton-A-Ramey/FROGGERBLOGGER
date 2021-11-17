@@ -4,3 +4,5 @@ if (y > 0)
 {
 y = y- 50;
 }
+
+image_index=8

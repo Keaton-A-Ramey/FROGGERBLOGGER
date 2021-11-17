@@ -11,3 +11,28 @@ if place_meeting(x,y,obj_car2){
 if place_meeting(x,y,obj_car3){
 	global.playerDied = true;
 }
+
+
+if keyboard_check(vk_up)
+{
+	
+	image_index=11
+
+}
+
+if keyboard_check(vk_down)
+{
+	
+	image_index=0
+	
+}
+
+if keyboard_check(vk_right)
+{
+	if image_index>8
+	{
+	image_index=4
+	}
+}
+
+
