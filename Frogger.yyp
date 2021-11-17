@@ -1,15 +1,21 @@
 {
   "resources": [
     {"id":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},"order":1,},
+    {"id":{"name":"spr_sidewalk","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"order":7,},
     {"id":{"name":"spt_car2","path":"sprites/spt_car2/spt_car2.yy",},"order":4,},
     {"id":{"name":"obj_car1","path":"objects/obj_car1/obj_car1.yy",},"order":3,},
     {"id":{"name":"spt_car3","path":"sprites/spt_car3/spt_car3.yy",},"order":5,},
+    {"id":{"name":"spr_midWalk","path":"sprites/spr_midWalk/spr_midWalk.yy",},"order":8,},
     {"id":{"name":"obj_blogger","path":"objects/obj_blogger/obj_blogger.yy",},"order":1,},
     {"id":{"name":"spt_car1","path":"sprites/spt_car1/spt_car1.yy",},"order":3,},
+    {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"order":6,},
     {"id":{"name":"spt_blogger","path":"sprites/spt_blogger/spt_blogger.yy",},"order":1,},
     {"id":{"name":"spt_croudman","path":"sprites/spt_croudman/spt_croudman.yy",},"order":2,},
+    {"id":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},"order":2,},
+    {"id":{"name":"fnt_manaspace","path":"fonts/fnt_manaspace/fnt_manaspace.yy",},"order":0,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
     {"id":{"name":"obj_car3","path":"objects/obj_car3/obj_car3.yy",},"order":5,},
+    {"id":{"name":"VictoryRoom","path":"rooms/VictoryRoom/VictoryRoom.yy",},"order":3,},
     {"id":{"name":"obj_croudman","path":"objects/obj_croudman/obj_croudman.yy",},"order":2,},
     {"id":{"name":"spt_controller","path":"sprites/spt_controller/spt_controller.yy",},"order":0,},
     {"id":{"name":"obj_car2","path":"objects/obj_car2/obj_car2.yy",},"order":4,},
@@ -32,6 +38,8 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},},
     {"roomId":{"name":"TitleRoom","path":"rooms/TitleRoom/TitleRoom.yy",},},
+    {"roomId":{"name":"GameOverRoom","path":"rooms/GameOverRoom/GameOverRoom.yy",},},
+    {"roomId":{"name":"VictoryRoom","path":"rooms/VictoryRoom/VictoryRoom.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -57,7 +65,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.6.595",
   },
   "resourceVersion": "1.4",
   "name": "Frogger",

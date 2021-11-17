@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 94,
+  "bbox_left": 0,
+  "bbox_right": 49,
   "bbox_top": 0,
   "bbox_bottom": 49,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 100,
+  "width": 50,
   "height": 50,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d3607544-19da-4807-a452-5e88187c0a85","path":"sprites/spt_car1/spt_car1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d3607544-19da-4807-a452-5e88187c0a85","path":"sprites/spt_car1/spt_car1.yy",},"LayerId":{"name":"c2d1b62f-a4f1-4dfd-a6b3-d15f1319bc16","path":"sprites/spt_car1/spt_car1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spt_car1","path":"sprites/spt_car1/spt_car1.yy",},"resourceVersion":"1.0","name":"d3607544-19da-4807-a452-5e88187c0a85","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d47c0284-f560-4827-808f-72de2bf4cc56","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d47c0284-f560-4827-808f-72de2bf4cc56","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"LayerId":{"name":"470a3d95-d729-4ea8-beff-25e0dceb30df","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_sidewalk","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"resourceVersion":"1.0","name":"d47c0284-f560-4827-808f-72de2bf4cc56","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spt_car1","path":"sprites/spt_car1/spt_car1.yy",},
+    "spriteId": {"name":"spr_sidewalk","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4bf36a68-7e8d-4792-927e-a9d86b89d8f1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d3607544-19da-4807-a452-5e88187c0a85","path":"sprites/spt_car1/spt_car1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"94734446-9b7d-44a6-ab7e-85bf082db71c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d47c0284-f560-4827-808f-72de2bf4cc56","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spt_car1","path":"sprites/spt_car1/spt_car1.yy",},
+    "parent": {"name":"spr_sidewalk","path":"sprites/spr_sidewalk/spr_sidewalk.yy",},
     "resourceVersion": "1.3",
-    "name": "spt_car1",
+    "name": "spr_sidewalk",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c2d1b62f-a4f1-4dfd-a6b3-d15f1319bc16","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"470a3d95-d729-4ea8-beff-25e0dceb30df","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spt_car1",
+  "name": "spr_sidewalk",
   "tags": [],
   "resourceType": "GMSprite",
 }
