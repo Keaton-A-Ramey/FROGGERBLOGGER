@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 5,
-  "bbox_right": 45,
-  "bbox_top": 5,
-  "bbox_bottom": 45,
+  "bbox_left": 0,
+  "bbox_right": 49,
+  "bbox_top": 0,
+  "bbox_bottom": 49,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fcbe1eb5-a8ba-4ff0-9249-15a138517c8b","path":"sprites/spt_blogger/spt_blogger.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fcbe1eb5-a8ba-4ff0-9249-15a138517c8b","path":"sprites/spt_blogger/spt_blogger.yy",},"LayerId":{"name":"854c1839-266a-4500-b411-e83ff30c0854","path":"sprites/spt_blogger/spt_blogger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spt_blogger","path":"sprites/spt_blogger/spt_blogger.yy",},"resourceVersion":"1.0","name":"fcbe1eb5-a8ba-4ff0-9249-15a138517c8b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3d6e5631-3ad1-444c-8ee3-acb86e189bb1","path":"sprites/spr_battery/spr_battery.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3d6e5631-3ad1-444c-8ee3-acb86e189bb1","path":"sprites/spr_battery/spr_battery.yy",},"LayerId":{"name":"a9eec69f-d027-43b9-b915-8ad8eb48bbff","path":"sprites/spr_battery/spr_battery.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_battery","path":"sprites/spr_battery/spr_battery.yy",},"resourceVersion":"1.0","name":"3d6e5631-3ad1-444c-8ee3-acb86e189bb1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spt_blogger","path":"sprites/spt_blogger/spt_blogger.yy",},
+    "spriteId": {"name":"spr_battery","path":"sprites/spr_battery/spr_battery.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 8.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9ad0f353-6de2-4f3f-926a-294c4b5625f9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcbe1eb5-a8ba-4ff0-9249-15a138517c8b","path":"sprites/spt_blogger/spt_blogger.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2e70f438-466b-4232-ba8f-c2e52bc852fa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3d6e5631-3ad1-444c-8ee3-acb86e189bb1","path":"sprites/spr_battery/spr_battery.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spt_blogger","path":"sprites/spt_blogger/spt_blogger.yy",},
+    "parent": {"name":"spr_battery","path":"sprites/spr_battery/spr_battery.yy",},
     "resourceVersion": "1.3",
-    "name": "spt_blogger",
+    "name": "spr_battery",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"854c1839-266a-4500-b411-e83ff30c0854","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a9eec69f-d027-43b9-b915-8ad8eb48bbff","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spt_blogger",
+  "name": "spr_battery",
   "tags": [],
   "resourceType": "GMSprite",
 }

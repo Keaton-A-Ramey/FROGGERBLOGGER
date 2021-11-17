@@ -16,7 +16,14 @@ if global.playerLives = 0{
 global.time-=1;
 
 if global.time = 0{
-	game_end();
+	room_goto(GameOverRoom);
+}
+
+if global.gotBattery = true{
+	batteryCoordFinder();
+	global.score+=1000;
+	instance_create_layer(batteryCoords[0], batteryCoords[1], "Instances", obj_battery);
+	global.gotBattery = false;
 }
 
 if place_meeting(obj_blogger.x, obj_blogger.y, obj_traincar){
@@ -37,5 +44,6 @@ if closeDoor = true{
 show_debug_message(string(global.winCount));
 
 if global.winCount = 4{
+	global.score += global.time;
 	room_goto(VictoryRoom);
 }

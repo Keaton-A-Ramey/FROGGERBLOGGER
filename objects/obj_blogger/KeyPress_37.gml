@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+sprite_index = spr_bloggerSidewaysL;
 
 if (x > 0)
 {

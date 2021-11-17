@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_blogger","path":"objects/obj_blogger/obj_blogger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":350.0,"y":750.0,"resourceVersion":"1.0","name":"inst_5F18835B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-50.0,"y":-50.0,"resourceVersion":"1.0","name":"inst_528D9653","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_croudman","path":"objects/obj_croudman/obj_croudman.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":250.0,"y":300.0,"resourceVersion":"1.0","name":"inst_19151495","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_car2","path":"objects/obj_car2/obj_car2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":450.0,"y":600.0,"resourceVersion":"1.0","name":"inst_F3FEFE7","tags":[],"resourceType":"GMRInstance",},
@@ -44,6 +43,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_traincar","path":"objects/obj_traincar/obj_traincar.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-400.0,"y":0.0,"resourceVersion":"1.0","name":"inst_15AFE9ED","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_locomotive","path":"objects/obj_locomotive/obj_locomotive.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-200.0,"y":0.0,"resourceVersion":"1.0","name":"inst_65177991","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_croudman2","path":"objects/obj_croudman2/obj_croudman2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":400.0,"y":250.0,"resourceVersion":"1.0","name":"inst_2FEF94D8","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_blogger","path":"objects/obj_blogger/obj_blogger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":400.0,"y":750.0,"resourceVersion":"1.0","name":"inst_6E41C954","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_battery","path":"objects/obj_battery/obj_battery.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":400.0,"y":650.0,"resourceVersion":"1.0","name":"inst_31C171CD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":50,"gridY":50,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":50,"gridY":50,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Scenery","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
@@ -296,7 +297,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_5F18835B","path":"rooms/GameRoom/GameRoom.yy",},
     {"name":"inst_528D9653","path":"rooms/GameRoom/GameRoom.yy",},
     {"name":"inst_19151495","path":"rooms/GameRoom/GameRoom.yy",},
     {"name":"inst_F3FEFE7","path":"rooms/GameRoom/GameRoom.yy",},
@@ -326,6 +326,8 @@
     {"name":"inst_15AFE9ED","path":"rooms/GameRoom/GameRoom.yy",},
     {"name":"inst_65177991","path":"rooms/GameRoom/GameRoom.yy",},
     {"name":"inst_2FEF94D8","path":"rooms/GameRoom/GameRoom.yy",},
+    {"name":"inst_6E41C954","path":"rooms/GameRoom/GameRoom.yy",},
+    {"name":"inst_31C171CD","path":"rooms/GameRoom/GameRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
