@@ -10,11 +10,32 @@ if global.playerDied = true{
 global.timeLeft = floor(global.time/60);
 
 if global.playerLives = 0{
-	game_end();
+	room_goto(GameOverRoom);
 }
 
 global.time-=1;
 
 if global.time = 0{
 	game_end();
+}
+
+if place_meeting(obj_blogger.x, obj_blogger.y, obj_traincar){
+	closeDoor = true;
+	var whichDoor = instance_nearest(obj_blogger.x, obj_blogger.y,obj_traincar);
+	instance_destroy(obj_blogger);
+	instance_create_layer(350,750,"Instances", obj_blogger);
+}
+
+if closeDoor = true{
+	whichDoor.image_index = 0;
+	global.winCount++;
+	whichDoor.mask_index = spr_noCollision;
+	whichDoor.keepDoorClosed = true;
+	closeDoor = false;
+}
+
+show_debug_message(string(global.winCount));
+
+if global.winCount = 4{
+	room_goto(VictoryRoom);
 }

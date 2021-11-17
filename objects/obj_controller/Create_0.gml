@@ -6,9 +6,12 @@ obj_car2.speed = random_range(0.25, .5);
 obj_car3.speed = random_range(4,5);
 
 global.playerLives = 300;
-global.time = 60*60;
+global.time = 90*60;
 global.timeLeft = global.time/60;
 global.playerDied = false;
+global.winCount = 0;
+
+closeDoor = false;
 
 draw_set_font(fnt_manaspace);
 draw_set_alpha(1);
