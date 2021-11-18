@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spt_croudman2L",
-    "path": "sprites/spt_croudman2L/spt_croudman2L.yy",
+    "name": "spt_croudman2",
+    "path": "sprites/spt_croudman2/spt_croudman2.yy",
   },
   "solid": false,
   "visible": true,
