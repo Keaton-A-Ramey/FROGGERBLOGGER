@@ -3,6 +3,7 @@
 
 if global.playerDied = true{
 	global.playerLives -=1;
+	audio_play_sound(snd_deathSound, 10, false);
 	instance_create_layer(obj_blogger.x, obj_blogger.y, "Scenery", obj_deadBody);
 	instance_destroy(obj_blogger);
 	instance_create_layer(350,750,"Instances", obj_blogger);
