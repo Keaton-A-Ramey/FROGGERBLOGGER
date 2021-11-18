@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 if room = GameRoom{
+	
+if global.winCount < 4{
 if (global.trainx<800)
 {
 	x = x+5;
@@ -21,4 +23,10 @@ if (image_index = 3)
 {
 	image_speed = 0;
 }
+}
+}
+
+if global.winCount=4{
+	x = x+5;
+	image_speed = 0;
 }

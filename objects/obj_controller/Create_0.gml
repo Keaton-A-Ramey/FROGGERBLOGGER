@@ -11,6 +11,7 @@ global.score = 0;
 global.rainbowPeople = 0;
 
 closeDoor = false;
+addBonus = true;
 
 draw_set_font(fnt_manaspace);
 draw_set_alpha(1);
