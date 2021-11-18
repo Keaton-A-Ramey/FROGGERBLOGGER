@@ -38,6 +38,7 @@
     {"id":{"name":"subBar","path":"sprites/subBar/subBar.yy",},"order":23,},
     {"id":{"name":"fnt_manaspace","path":"fonts/fnt_manaspace/fnt_manaspace.yy",},"order":0,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":0,},
+    {"id":{"name":"Blogger_Song","path":"sounds/Blogger_Song/Blogger_Song.yy",},"order":0,},
     {"id":{"name":"obj_croudman2L","path":"objects/obj_croudman2L/obj_croudman2L.yy",},"order":14,},
     {"id":{"name":"batteryCoordFinder","path":"scripts/batteryCoordFinder/batteryCoordFinder.yy",},"order":0,},
     {"id":{"name":"spr_bloggerSidewaysL","path":"sprites/spr_bloggerSidewaysL/spr_bloggerSidewaysL.yy",},"order":27,},
