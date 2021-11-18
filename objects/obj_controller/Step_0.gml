@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if global.playerDied = true{
 	global.playerLives -=1;
+	instance_create_layer(obj_blogger.x, obj_blogger.y, "Scenery", obj_deadBody);
 	instance_destroy(obj_blogger);
 	instance_create_layer(350,750,"Instances", obj_blogger);
 	global.playerDied = false;
@@ -45,5 +47,25 @@ show_debug_message(string(global.winCount));
 
 if global.winCount = 4{
 	global.score += global.time;
+	global.score += global.playerLives*2500;
 	room_goto(VictoryRoom);
+}
+
+//Easter egg
+if global.rainbowPeople > 4{
+	if makeRainbow = true{
+	with(obj_croudman){
+	image_blend = make_color_rgb(irandom_range(0,255), irandom_range(0,255), irandom_range(0,255));
+}
+with(obj_croudman2){
+	image_blend = make_color_rgb(irandom_range(0,255), irandom_range(0,255), irandom_range(0,255));
+}
+with(obj_croudman2L){
+	image_blend = make_color_rgb(irandom_range(0,255), irandom_range(0,255), irandom_range(0,255));
+}
+with(obj_croudmanL){
+	image_blend = make_color_rgb(irandom_range(0,255), irandom_range(0,255), irandom_range(0,255));
+}
+makeRainbow = false;
+}
 }

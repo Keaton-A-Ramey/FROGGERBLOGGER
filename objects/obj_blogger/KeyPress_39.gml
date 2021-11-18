@@ -9,5 +9,6 @@ if (x < 750)
 }
 else
 {
+	global.rainbowPeople++
 	x = 0;
 }
