@@ -24,7 +24,7 @@ if global.time = 0{
 if global.gotBattery = true{
 	batteryCoordFinder();
 	global.score+=1000;
-	instance_create_layer(batteryCoords[0], batteryCoords[1], "Instances", obj_battery);
+	instance_create_layer(batteryCoords[0], batteryCoords[1], "Battery", obj_battery);
 	global.gotBattery = false;
 }
 
