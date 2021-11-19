@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//All of these check to see if the blogger has run into
+//an obstacle and sets playerDied to true if they did
 if place_meeting(x,y,obj_car1){
 	global.playerDied = true;
 }
